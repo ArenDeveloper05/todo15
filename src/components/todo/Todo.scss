@@ -1,0 +1,15 @@
+.todo {
+  border: solid;
+  padding: 24px;
+  &-body {
+    border: solid;
+    margin-top: 24px;
+    padding: 24px;
+    min-height: 300px;
+    &-item {
+      border: solid;
+      padding: 16px;
+      margin-top: 24px;
+    }
+  }
+}
